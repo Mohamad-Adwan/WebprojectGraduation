@@ -1,0 +1,60 @@
+.AdditionalDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    position: relative;
+    border: 2px solid #D6DDEB;
+}
+
+.AdditionalDetails .details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AdditionalDetails .details .detailsleft {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.AdditionalDetails .details .detailsleft .editTextBox {
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.AdditionalDetails .details .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.AdditionalDetails .edit {
+    position: absolute;
+    right: 20px;
+    border: 2px solid #D6DDEB;
+    padding: 5px;
+    color: #4640DE;
+}
+
+.AdditionalDetails .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.AdditionalDetails .buttons .saveButton {
+    padding: 7px 21px;
+    background-color: #4640DE;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.AdditionalDetails .buttons .cancelButton {
+    padding: 7px 13px;
+    background-color: #de4040;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}

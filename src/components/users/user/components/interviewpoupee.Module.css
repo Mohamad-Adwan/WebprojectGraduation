@@ -1,0 +1,83 @@
+/* interviewPopup.css */
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 9999; /* Ensure the popup is at the top */
+}
+
+.popup-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+    z-index: 10000; /* Ensure the popup content is above the background */
+}
+
+.popup-inner h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.popup-inner p {
+    margin-bottom: 10px;
+}
+
+.popup-inner button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.popup-inner button:hover {
+    background-color: #0056b3;
+}
+
+/* Ensure footer and navbar appear above the popup */
+footer, nav {
+    position: relative;
+    z-index: 10001; /* Ensure the footer and navbar are above the popup */
+}
+p{
+    color: black;
+}
+h2{
+    color: black;
+}
+.btnn {
+    margin-top: 10px;
+    color: #FFF;
+    background-color: #4640de;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    align-self: center; /* Center the button horizontally */
+}
+  .btnnn {
+    margin-top: 1px;
+    color: #FFF;
+    background-color: #4640de;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 20px;
+  }
+  .h77 {
+
+    color: black;
+  }
+  

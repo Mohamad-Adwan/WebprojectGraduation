@@ -1,0 +1,195 @@
+.userProfilePage .hide {
+    opacity: 0;
+    height: 0;
+}
+
+.userProfilePage {
+    width: 100%;
+}
+
+.userProfilePage header {
+    border-bottom: solid 1px #7C8493;
+}
+
+.userProfilePage header h1 {
+    padding: 38px 32px;
+}
+
+.userProfilePage .userdata {
+    padding: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+.userProfilePage .userdata .largeContainer {
+    width: calc((70% - 24px));
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+/*Main  ///////////////////////////////////////////////////////////////////////////*/
+
+.userProfilePage .userdata .largeContainer .main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid #D6DDEB;
+
+}
+
+.userProfilePage .userdata .largeContainer .main .upside img {
+    width: 100%;
+    height: 100%;
+}
+
+.userProfilePage .userdata .largeContainer .main .downside {
+    padding: 24px 0 50px 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.userProfilePage .userdata .largeContainer .main .downside .name {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.userProfilePage .userdata .largeContainer .main .downside input {
+    width: fit-content;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.userProfilePage .userdata .largeContainer .main .downside .liveIn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.userProfilePage .userdata .largeContainer .main .edit {
+    position: absolute;
+    right: 24px;
+    top: 264px;
+    border: 2px solid #D6DDEB;
+    cursor: pointer;
+    color: #4640DE;
+    padding: 5px;
+}
+
+.userProfilePage .userdata .largeContainer .main .userImg {
+    position: absolute;
+    left: 55px;
+    top: calc(50% - 50px);
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userProfilePage .userdata .largeContainer .main .userImg img {
+
+    width: 140px;
+    height: 140px;
+    border-radius: 80px;
+}
+
+.userProfilePage .userdata .largeContainer .main .ImgContainer {
+    position: absolute;
+    left: 55px;
+    top: calc(50% - 50px);
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userProfilePage .userdata .largeContainer .main .ImgContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+    padding: 10px;
+}
+
+.userProfilePage .userdata .largeContainer .main .ImgContainer .imageHoverText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    border-radius: 60px;
+    font-size: 30px;
+    display: none;
+}
+
+.userProfilePage .userdata .largeContainer .main .ImgContainer:hover .imageHoverText {
+    display: block;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+.userProfilePage .userdata .smallContainer {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.checkbox-wrapper-17 input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.checkbox-wrapper-17 label {
+    --size: 40px;
+
+    cursor: pointer;
+    width: var(--size);
+    height: calc(var(--size) / 2);
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.checkbox-wrapper-17 label:after {
+    content: '';
+    position: absolute;
+    top: 6%;
+    left: 2.5%;
+    width: calc(50% - 5%);
+    height: calc(100% - 11%);
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.checkbox-wrapper-17 input:checked+label {
+    background: #bada55;
+}
+
+.checkbox-wrapper-17 input:checked+label:after {
+    left: calc(100% - 2.5%);
+    transform: translateX(-100%);
+}
+
+.checkbox-wrapper-17 label:active:after {
+    width: 55%;
+}

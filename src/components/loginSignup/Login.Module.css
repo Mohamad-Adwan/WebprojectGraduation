@@ -1,0 +1,179 @@
+*{
+  box-sizing: border-box;
+}
+
+.loginpage  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  border-radius: 10px 0 0 10px;
+}
+
+.loginpage .logincontainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 100px;
+  border-radius: 10px 0 0 10px;
+  padding: 0 50px;
+}
+
+.loginpage .logincontainer form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.loginpage .logincontainer form div label {
+  font-size: 16px;
+}
+
+.loginpage .logincontainer form div input {
+  width: 100%;
+  height: 40px;
+  background-color: #EEE;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.loginpage .logincontainer .forgetpass {
+  color: blue;
+  background-color: #FFF;
+}
+
+.loginpage .logincontainer form .submitbtn {
+  color: #FFF;
+  font-size: 16px;
+  display: flex;
+    align-items: center;
+  background-color: #4640DE;
+  width: 140px;
+  height: 40px;
+  padding: 12px 45px; 
+  transition: transform 80ms ease-in;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #4640DE;
+}
+
+.loginpage .logincontainer h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.loginpage .logincontainer .SendCodeDiv {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFF;
+  height: 70%;
+  width: 100%;
+}
+
+.loginpage .logincontainer .SendCodeDiv div label {
+  font-size: 16px;
+}
+
+.loginpage .logincontainer .SendCodeDiv div input {
+  width: 100%;
+  height: 40px;
+  background-color: #EEE;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.loginpage .logincontainer .SendCodeDiv .sendButton {
+  color: #FFF;
+  font-size: 16px;
+  display: flex;
+    align-items: center;
+  background-color: #4640DE;
+  width: 140px;
+  height: 40px;
+  padding: 12px 45px; 
+  transition: transform 80ms ease-in;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #4640DE;
+  margin: 50px;
+}
+
+.loginpage .logincontainer .SendCodeDiv .cancelButton {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+
+.loginpage .logincontainer .forgetPassDiv {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFF;
+  height: 85%;
+  width: 100%;
+  gap: 10px;
+}
+
+.loginpage .logincontainer .forgetPassDiv div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loginpage .logincontainer .forgetPassDiv div label {
+  font-size: 16px;
+}
+
+.loginpage .logincontainer .forgetPassDiv div input {
+  width: 300px;
+  height: 40px;
+  background-color: #EEE;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.loginpage .logincontainer .forgetPassDiv .sendButton {
+  color: #FFF;
+  font-size: 16px;
+  display: flex;
+    align-items: center;
+  background-color: #4640DE;
+  width: 140px;
+  height: 40px;
+  padding: 12px 45px; 
+  transition: transform 80ms ease-in;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #4640DE;
+  
+}
+
+.loginpage .logincontainer .forgetPassDiv .cancelButton {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+
+.loginpage .logincontainer .forgetPassDiv div .error {
+  border-color: red;
+}

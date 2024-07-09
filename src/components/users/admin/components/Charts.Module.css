@@ -1,0 +1,44 @@
+.container {
+  margin-bottom: 20px; /* Adds some spacing between the divs */
+}
+.chart-container {
+    width: 50%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  label {
+    display: inline-block;
+    width: 100px; /* Adjust width as needed */
+    font-weight: bold;
+  }
+  .charts{
+    margin-top: -100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  /* Styles for DatePicker container */
+  .react-datepicker-wrapper {
+    display: inline-block;
+  }
+  
+  /* Styles for DatePicker input field */
+  .react-datepicker__input-container input {
+    width: 200px; /* Adjust width as needed */
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styles for DatePicker calendar */
+  .react-datepicker-popper {
+    z-index: 9999; /* Ensures DatePicker appears on top */
+  }
+  .title{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-left: 40%;
+  }
+  .data{
+margin-left: -30%;
+margin-top: 70px;
+  }

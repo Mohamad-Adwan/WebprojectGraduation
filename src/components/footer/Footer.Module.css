@@ -1,0 +1,364 @@
+.footers {
+    background-color: #4640DE;
+}
+
+.footers .contaner {
+    background-color: #4640DE;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footers .contaner .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #4640DE;
+}
+
+.footers .contaner .content .leftside {
+    background-color: #4640DE;
+    display: flex;
+    flex-direction: column;
+}
+
+.footers .contaner .content .leftside .logo {
+    background-color: #4640DE;
+    border: 2px solid #FFF;
+    border-radius: 100%;
+}
+
+.footers .contaner .content .leftside .communication {
+    background-color: #4640DE;
+    display: flex;
+    flex-direction: column;
+    color: #f1f1f1;
+}
+
+.footers .contaner .content .leftside .communication div {
+    background-color: #4640DE;
+    display: flex;
+}
+
+.footers .contaner .content .leftside .communication div img {
+    background-color: #4640DE;
+}
+
+.footers .contaner .content .leftside .communication div p {
+    background-color: #4640DE;
+}
+
+.footers .contaner .content .rightside {
+    display: flex;
+    background-color: #4640DE;
+}
+
+.footers .contaner .content .rightside ol {
+    display: flex;
+    flex-direction: column;
+    background-color: #4640DE;
+    width: 100%;
+}
+
+.footers .contaner .content .rightside ol li {
+    background-color: #4640DE;
+    color: #f1f1f1;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footers .contaner .content .rightside ol li:nth-child(1) {
+
+    color: #FFF;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.footers .contaner .content .rightside .socialprofiles {
+    width: 100%;
+    background-color: #4640DE;
+    display: flex;
+    flex-direction: column;
+}
+
+.footers .contaner .content .rightside .socialprofiles h3 {
+    color: #FFF;
+    background-color: #4640DE;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.footers .contaner .content .rightside .socialprofiles .social {
+    display: flex;
+    background-color: #4640DE;
+}
+
+.footers .contaner .content .rightside .socialprofiles .social a {
+    background-color: #4640DE;
+}
+
+.footers .contaner .content .rightside .socialprofiles .social img {
+    border: none;
+    background-color: #4640DE;
+}
+
+.footers hr {
+    width: 100%;
+    height: 1px;
+    background-color: #4640DE;
+}
+
+.footers .rights {
+    background-color: #4640DE;
+    color: #FFF;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+@media screen and (min-width: 1920px) {
+    .footers {
+        
+    }
+
+    .footers .contaner {
+        padding: 100px 162px 30px 162px;
+        gap: 50px;
+    }
+
+    .footers .contaner .content .leftside {
+        gap: 40px;
+    }
+
+    .footers .contaner .content .leftside .logo {
+        width: 54px;
+        height: 54px;
+    }
+
+    .footers .contaner .content .leftside .communication {
+        gap: 20px;
+    }
+
+    .footers .contaner .content .leftside .communication div {
+        gap: 6px;
+    }
+
+    .footers .contaner .content .leftside .communication div img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footers .contaner .content .leftside .communication div p {
+        font-size: 18px;
+    }
+
+    .footers .contaner .content .rightside {
+        gap: 30px;
+        width: 807px;
+    }
+
+    .footers .contaner .content .rightside ol {
+        gap: 8px;
+    }
+
+    .footers .contaner .content .rightside ol li {
+        font-size: 18px;
+    }
+
+    .footers .contaner .content .rightside ol li:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles {
+        gap: 14px;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles h3 {
+        font-size: 20px;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles .social {
+        width: 40px;
+        border-radius: 50%;
+        gap: 14px;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles .social a {
+        width: 40px;
+        border-radius: 50%; 
+    }
+
+    .footers .contaner .content .rightside .socialprofiles .social a img {
+        width: 60px;
+        border-radius: 50%;
+    }
+
+    .footers .rights {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+
+    .footers .contaner {
+        padding: 60px 80px 20px 80px;
+        gap: 30px;
+    }
+
+    .footers .contaner .content .leftside {
+        gap: 30px;
+    }
+
+    .footers .contaner .content .leftside .logo {
+        width: 44px;
+        height: 44px;
+    }
+
+    .footers .contaner .content .leftside .communication {
+        gap: 14px;
+    }
+
+    .footers .contaner .content .leftside .communication div {
+        gap: 4px;
+    }
+
+    .footers .contaner .content .leftside .communication div img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footers .contaner .content .leftside .communication div p {
+        font-size: 16px;
+    }
+
+    .footers .contaner .content .rightside {
+        gap: 24px;
+        width: 737px;
+    }
+
+    .footers .contaner .content .rightside ol {
+        gap: 8px;
+    }
+
+    .footers .contaner .content .rightside ol li {
+        font-size: 16px;
+    }
+
+    .footers .contaner .content .rightside ol li:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles {
+        gap: 10px;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles h3 {
+        font-size: 18px;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles .social {
+        gap: 14px;
+        border-radius: 50%;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles .social a {
+        border-radius: 50%;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles .social img {
+        width: 44px;
+        border-radius: 50%;
+    }
+
+    .footers .rights {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1439px) {
+
+    .footers .contaner {
+        padding: 50px 20px 24px 20px;
+        gap: 20px;
+    }
+
+    .footers .contaner .content {
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .footers .contaner .content .leftside {
+        gap: 30px;
+    }
+
+    .footers .contaner .content .leftside .logo {
+        width: 44px;
+        height: 44px;
+    }
+
+    .footers .contaner .content .leftside .communication {
+        gap: 12px;
+    }
+
+    .footers .contaner .content .leftside .communication div {
+        gap: 6px;
+    }
+
+    .footers .contaner .content .leftside .communication div img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footers .contaner .content .leftside .communication div p {
+        font-size: 15px;
+    }
+
+    .footers .contaner .content .rightside {
+        gap: 30px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footers .contaner .content .rightside ol {
+        gap: 4px;
+        width: 128px;
+    }
+
+    .footers .contaner .content .rightside ol li {
+        font-size: 14px;
+    }
+
+    .footers .contaner .content .rightside ol li:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles {
+        gap: 10px;
+        width: fit-content;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles h3 {
+        font-size: 18px;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles .social {
+        gap: 14px;
+    }
+
+    .footers .contaner .content .rightside .socialprofiles .social a {
+        border-radius: 20px;
+        
+    }
+
+    .footers .contaner .content .rightside .socialprofiles .social img {
+        width: 40px;
+        border-radius: 50%;
+        
+    }
+
+    .footers .rights {
+        font-size: 14px;
+    }
+}

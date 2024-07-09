@@ -1,0 +1,49 @@
+.userpage {
+    display: flex;
+    /*justify-content: space-between;-->*/
+    height: 100%;
+}
+
+.userpage .leftside {
+    background-color: #F8F8FD;
+    width: 272px;
+    border-right: 1px solid #7C8493;
+    position: sticky;
+    top: 56.4px;
+    left: 0;
+}
+
+.userpage .leftside nav {
+    height: calc(100vh - 411px);
+
+}
+
+.userpage .leftside nav ol {
+    background-color: #F8F8FD;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.userpage .leftside nav ol li .link {
+    background-color: #F8F8FD;
+    color: #7C8493;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 33px;
+}
+
+.userpage .leftside nav ol li .link p {
+    background-color: #F8F8FD;
+}
+
+.userpage .leftside nav ol li .active {
+    border-left: 2px solid #4640DE;
+    color: #4640DE;
+    transition: color 1s ease, border-left-color 0.3s ease;
+    /* تأثير التحول على اللون وحاجز الحدود */
+
+}

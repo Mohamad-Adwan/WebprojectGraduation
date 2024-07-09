@@ -1,0 +1,207 @@
+.jobcomponent {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 16px;
+  width: 274px;
+  border: 1px solid #d6ddeb;
+  position: relative;
+  transition: background-color 1s ease;
+  background-color: #FFF;
+}
+
+.jobcomponent .imageDiv {
+  padding: 5px;
+  
+}
+
+.jobcomponent .image {
+  width: 45px;
+  height: 45px;
+  color: #4640de;
+  background-color: #FFF;
+}
+
+.jobcomponent .label {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 3px;
+  transition: background-color 1s ease;
+  background-color: #FFF;
+}
+
+.jobcomponent .label h3 {
+  color: #000;
+  transition: background-color 1s ease;
+  background-color: #FFF;
+}
+
+.jobcomponent .label div {
+  display: flex;
+  transition: background-color 1s ease;
+  background-color: #FFF;
+}
+
+.jobcomponent .label p {
+  color: #515b6f;
+  transition: background-color 1s ease;
+  background-color: #FFF;
+}
+
+.jobcomponent .jobdiscription {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  transition: background-color 1s ease;
+  background-color: #FFF;
+}
+
+.jobcomponent .jobCatigory {
+  border-radius: 15px;
+  width: fit-content;
+  padding: 4px 16px;
+  background-color:rgb(210, 210, 250);
+  color: #4640de;
+}
+
+.jobcomponent .Design {
+  background-color: #c8f6ebd0;
+  color: #39af90;
+}
+
+.jobcomponent .Sales {
+  background-color: #c8f6ebd0;
+  color: #39af90;
+}
+
+.jobcomponent .Marketing {
+  background-color: #fae9ca;
+  color: #FFB836;
+}
+
+.jobcomponent .Business {
+  background-color: #fae9ca;
+  color: #FFB836;
+}
+
+.jobcomponent .HR {
+  background-color: #ffded9;
+  color: #FF6550;
+}
+
+.jobcomponent .Finance {
+  background-color: #ffded9;
+  color: #FF6550;
+}
+
+.jobcomponent .Engineering {
+  background-color: #ffded9;
+  color: #FF6550;
+}
+
+.jobcomponent .buttons {
+  display: flex;
+  justify-content: end;
+  padding-top: 10px;
+}
+
+.jobcomponent .buttons button {
+  color: #FFF;
+  background-color: #4640de;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.jobcomponent .jobTime {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  color: #4640de;
+  border: 1px solid #4640de;
+  padding: 4px 12px;
+  transition: background-color 1s ease;
+  background-color: #FFF;
+}
+
+.jobcomponent:hover,
+.jobcomponent:hover .label,
+.jobcomponent:hover .label h3,
+.jobcomponent:hover .label div,
+.jobcomponent:hover .label div p,
+.jobcomponent:hover .jobdiscription,
+.jobcomponent:hover .jobTime,
+.jobcomponent:hover .image {
+  background-color: #4640de;
+  color: #fff;
+  transition: background-color 1s ease;
+
+}
+
+.jobcomponent:hover button {
+  color: #4640de;
+  background-color: #FFF;
+}
+
+.jobcomponent:hover .jobTime {
+  border-color: #fff;
+}
+
+.jobcomponent form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.jobcomponent form .ImgContainer {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: 80px;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jobcomponent form .ImgContainer .pdfimage {
+  color: #4640de;
+}
+
+.jobcomponent form .ImgContainer .imageHoverText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px 8px;
+  border-radius: 60px;
+  font-size: 20px;
+  color: #000;
+  display: none;
+}
+
+.jobcomponent form .ImgContainer:hover .imageHoverText {
+  display: block;
+}
+
+.bu {
+  margin-top: 10px;
+  color: #FFF;
+  background-color: #4640de;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+h4{
+
+
+  margin-top: 15px;
+}

@@ -1,0 +1,53 @@
+.userComponent {
+    display: flex;
+    padding: 10px 25px;
+    border: 1px solid #4640DE;
+    align-items: center;
+    height: 60px;
+    width: 800px;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: background-color 1s ease;
+    cursor: pointer;
+    color: #000;
+}
+
+.userComponent .side {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    transition: background-color 1s ease;
+}
+
+.userComponent .side .imageDiv {
+    border-radius: 25px;
+    border: 1px solid #4640DE;
+    padding: 5px;
+    transition: background-color 1s ease;
+}
+
+.userComponent .side .imageDiv .image {
+    width: 35px;
+    height: 35px;
+}
+
+.userComponent div .type {
+    border: 1px solid #4640DE;
+    color: #4640DE;
+    padding: 3px 5px;
+    border-radius: 5px;
+    transition: background-color 1s ease;
+}
+
+.userComponent:hover,
+.userComponent:hover .side .type {
+    background-color: #4640DE;
+    color: #FFF;
+    transition: background-color 1s ease;
+}
+
+.userComponent:hover .side .type,
+.userComponent:hover .side .imageDiv {
+    border-color: #FFF;
+    transition: background-color 1s ease;
+}

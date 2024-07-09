@@ -1,0 +1,60 @@
+.aboutMe {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid #D6DDEB;
+    padding: 24px;
+    gap: 24px;
+}
+
+.aboutMe .aboutMeHeader {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.aboutMe .aboutMeHeader .edit {
+    padding: 5px;
+    border: 2px solid #CCCCF5;
+}
+
+.aboutMe h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.aboutMe .editDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.aboutMe .editDiv textarea {
+    font-size: 16px;
+    height: auto;
+    overflow: hidden;
+    resize: none;
+}
+
+.aboutMe .editDiv .buttons {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.aboutMe .editDiv .buttons .saveButton {
+    padding: 7px 21px;
+    background-color: #4640DE;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.aboutMe .editDiv .buttons .cancelButton {
+    padding: 7px 13px;
+    background-color: #de4040;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}

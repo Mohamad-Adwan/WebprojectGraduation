@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+.signuppage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  border-radius: 0 10px 10px 0;
+  width: 100%;
+  
+}
+
+.signuppage .signupcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  border-radius: 0 10px 10px 0;
+  padding: 0 50px;
+}
+
+.signuppage .signupcontainer form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.signuppage .signupcontainer form div {
+  width: 270px;
+}
+
+.signuppage .signupcontainer form div label {
+  font-size: 16px;
+}
+
+.signuppage .signupcontainer form div input {
+  width: 100%;
+  height: 40px;
+  background-color: #EEE;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.signuppage .signupcontainer form div .errorMessage,
+.signuppage .signupcontainer form div .errorMessage::placeholder {
+
+  border-color: red;
+}
+
+.signuppage .signupcontainer form .submitbtn {
+  color: #FFF;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  background-color: #4640DE;
+  width: 140px;
+  height: 40px;
+  padding: 12px 45px;
+  margin-top: 10px;
+  transition: transform 80ms ease-in;
+  border-radius: 20px;
+  border: 1px solid #4640DE;
+}
+
+.signuppage .signupcontainer h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.option-list {
+  font-family: Arial, sans-serif;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  /* Remove default arrow icon */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  /* Custom arrow icon */
+  background-repeat: no-repeat;
+  background-color: #EEE;
+  align-items: center;
+
+  background-position: right 10px center;
+  background-size: 20px;
+}
+
+.signuppage .varificationDiv {
+  position: absolute;
+  background-color: #FFF;
+  top: 100px;
+  padding: 200px 100px 120px;
+}
+
+.signuppage .varificationDiv form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.signuppage .varificationDiv form input {
+  width: 100%;
+  height: 40px;
+  background-color: #EEE;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.signuppage .varificationDiv form button {
+  color: #FFF;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  background-color: #4640DE;
+  width: 140px;
+  height: 40px;
+  padding: 12px 45px;
+  margin-top: 10px;
+  transition: transform 80ms ease-in;
+  border-radius: 20px;
+  border: 1px solid #4640DE;
+}

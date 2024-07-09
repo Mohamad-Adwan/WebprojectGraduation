@@ -1,0 +1,16 @@
+.GenerateCV {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 10px;
+    border: 2px solid #D6DDEB;
+}
+
+.GenerateCV button {
+    padding: 7px 20px;
+    color: #FFF;
+    background-color: #4640DE;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.FeaturedJobsContainer {
+  width: calc(100% - 250px);
+  margin: auto;
+}
+
+.FeaturedJobsContainer .FeaturedJobsLabel {
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.FeaturedJobsContainer .FeaturedJobsLabel span {
+  color: #26a3fe;
+}
+
+.FeaturedJobsContainer .FeaturedJobsLabel .jobsLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: fit-content;
+  color: #4640de;
+  font-size: 18px;
+}
+
+.FeaturedJobsContainer .featuredcomponents {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}

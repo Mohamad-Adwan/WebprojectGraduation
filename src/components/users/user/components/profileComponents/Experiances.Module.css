@@ -1,0 +1,157 @@
+.experiences {
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: 2px solid #D6DDEB;
+}
+
+.experiences .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experiences .header button {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4640DE;
+    background-color: #FFF;
+    border: 2px solid #CCCCF5;
+}
+
+.experiences .experiance {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #D6DDEB;
+    
+
+}
+
+.experiences .experiance .data {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.experiences .experiance .rightside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.experiences .experiance .edit {
+    border: 2px solid #CCCCF5;
+    padding: 5px;
+}
+
+.experiences .experiance .rightside h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.experiences .experiance .rightside p {
+    color: #515B6F;
+    margin-left: 5px;
+}
+
+.experiences .experiance .rightside span {
+    color: #000;
+    font-weight: 600;
+}
+
+.experiences .experiance img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.experiences form {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.experiences form .ImgContainer {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experiences form .image {
+    width: 70px;
+    height: 70px;
+    background-color: #FFF;
+    padding: 5px;
+}
+
+.experiences form .data {
+    display: flex;
+    flex-direction: column;
+}
+
+.experiences form .data input {
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #D6DDEB;
+}
+
+.experiences form .data div {
+    display: flex;
+    gap: 5px;
+}
+
+.experiences form .data textarea {
+    width: 70%;
+    overflow: hidden;
+    border: none;
+    resize: none;
+    border-bottom: 2px solid #D6DDEB;
+}
+
+.experiences .experiance .saveButton {
+    position: absolute;
+    right: 127px;
+    bottom: 25px;
+    padding: 7px 21px;
+    background-color: #4640DE;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.experiences .experiance .deleteButton {
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+    padding: 7px 15px;
+    background-color: #de4040;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.experiences .experiance .cancelButton {
+    position: absolute;
+    right: 50px;
+    bottom: 25px;
+    padding: 7px 13px;
+    background-color: #de4040;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}

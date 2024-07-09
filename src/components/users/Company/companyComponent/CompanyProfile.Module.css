@@ -1,0 +1,38 @@
+.CompanyProfilePage .hide {
+    opacity: 0;
+    height: 0;
+}
+
+.CompanyProfilePage {
+    width: 100%;
+}
+
+.CompanyProfilePage header {
+    border-bottom: solid 1px #7C8493;
+}
+
+.CompanyProfilePage header h1 {
+    padding: 38px 32px;
+}
+
+.CompanyProfilePage .userdata {
+    padding: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+.CompanyProfilePage .userdata .largeContainer {
+    width: calc((70% - 24px));
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.CompanyProfilePage .userdata .smallContainer {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

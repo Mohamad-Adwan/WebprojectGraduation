@@ -1,0 +1,110 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+    border: 2px solid #D6DDEB;
+}
+
+.skills .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .header .buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.skills .header .buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    color: #4640DE;
+    border: 2px solid #D6DDEB;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.skills .header .buttons .edit {
+    padding: 5px;
+    border: 2px solid #D6DDEB;
+    cursor: pointer;
+}
+
+.skills .skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills .skillsContainer .skill {
+    background-color: #F8F8FD;
+    color: #4640DE;
+    padding: 5px;
+}
+
+.skills .skillsContainer .skill p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 25px;
+}
+
+.skills .skillsContainer .skill div {
+    display: flex;
+    position: relative;
+    height: 25px;
+}
+
+.skills .skillsContainer .skill div input {
+    background-color: #F8F8FD;
+    color: #4640DE;
+    border: none;
+    border-bottom: 1px solid #D6DDEB;
+    font-size: 16px;
+    text-align: center;
+    width: 190px;
+}
+
+.skills .skillsContainer .skill div button {
+    background-color: #F8F8FD;
+    color: #4640DE;
+    position: absolute;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    border: none;
+}
+
+.skills .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    width: 100%;
+}
+
+.skills .buttons .saveButton {
+    padding: 7px 21px;
+    background-color: #4640DE;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.skills .buttons .cancelbutton {
+    padding: 7px 15px;
+    background-color: #de4040;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}

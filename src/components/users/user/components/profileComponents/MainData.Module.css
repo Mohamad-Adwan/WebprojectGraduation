@@ -1,0 +1,132 @@
+.main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid #D6DDEB;
+
+}
+
+.main .upside img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .downside {
+    padding: 24px 0 50px 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.main .downside .name {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.main .downside input {
+    width: fit-content;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.main .downside .liveIn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main .downside .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    padding-right: 24px;
+}
+.main .downside .buttons .saveButton {
+    width: fit-content;
+    padding: 7px 20px;
+    color: #FFF;
+    background-color: #4640DE;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.main .downside .buttons .cancelButton {
+    width: fit-content;
+    padding: 7px 15px;
+    color: #FFF;
+    background-color: #de4040;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.main .edit {
+    position: absolute;
+    right: 24px;
+    top: 264px;
+    border: 2px solid #D6DDEB;
+    cursor: pointer;
+    color: #4640DE;
+    padding: 5px;
+}
+
+.main .userImg {
+    position: absolute;
+    left: 55px;
+    top: calc(50% - 50px);
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .userImg img {
+
+    width: 140px;
+    height: 140px;
+    border-radius: 80px;
+}
+
+.main .ImgContainer {
+    position: absolute;
+    left: 55px;
+    top: calc(50% - 50px);
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .ImgContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+    padding: 10px;
+}
+
+.main .ImgContainer .imageHoverText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    border-radius: 60px;
+    font-size: 30px;
+    display: none;
+}
+
+.main .ImgContainer:hover .imageHoverText {
+    display: block;
+}

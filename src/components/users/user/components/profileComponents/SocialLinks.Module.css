@@ -1,0 +1,129 @@
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    border: 2px solid #D6DDEB;
+}
+
+.social .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social .header .buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.social .header .buttons .edit {
+    padding: 5px;
+    border: 2px solid #D6DDEB;
+    cursor: pointer;
+}
+
+.social .header .buttons button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: #4640DE;
+    border: 2px solid #D6DDEB;
+    background-color: #FFF;
+}
+
+.social .Links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social .Links .link {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.social .Links .link .data {
+    display: flex;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.social .Links .link .data .right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.social .Links .link .data .right h4 {
+    font-size: 20px;
+}
+
+.social .Links .link .data .right a {
+    color: #4640DE;
+    font-size: 16px;
+}
+
+.social .Links .link .data .right select {
+    background-color: #FFF;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+}
+
+.social .Links .link .data .right input {
+    font-size: 16px;
+    color: #4640DE;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.social .editButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: end;
+}
+
+.social .editButtons button {
+    background-color: #de4040;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.social .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.social .buttons .saveButton {
+    padding: 7px 21px;
+    background-color: #4640DE;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.social .buttons .cancelButton {
+    padding: 7px 15px;
+    background-color: #de4040;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}

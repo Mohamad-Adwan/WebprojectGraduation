@@ -1,0 +1,31 @@
+.recommendedCompanies {
+  width: calc(100% - 250px);
+  margin: auto;
+}
+
+.recommendedCompanies .RCompaniesLabel {
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.recommendedCompanies .RCompaniesLabel span {
+    color: #26a3fe;
+}
+
+.recommendedCompanies .RCompaniesLabel .jobsLink {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: fit-content;
+  color: #4640de;
+  font-size: 18px;
+}
+
+.recommendedCompanies .CompaniesComponent {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}

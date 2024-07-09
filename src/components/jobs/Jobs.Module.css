@@ -1,0 +1,258 @@
+.jobspage {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+
+.jobspage .searchdiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 65px 0;
+  background-color: #f8f8fd;
+}
+
+.jobspage .searchdiv .jobslabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background-color: #f8f8fd;
+}
+
+.jobspage .searchdiv .jobslabel h1 {
+  font-size: 48px;
+  background-color: #f8f8fd;
+}
+
+.jobspage .searchdiv .jobslabel span {
+  color: #26a3fe;
+  background-color: #f8f8fd;
+}
+
+.jobspage .searchdiv .jobslabel p {
+  background-color: #f8f8fd;
+}
+
+.jobspage .searchdiv .searchbar {
+  background-color: #f8f8fd;
+}
+
+.jobspage .searchdiv .searchbar form {
+  background-color: #f8f8fd;
+  display: flex;
+  gap: 20px;
+  margin: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jobspage .searchdiv .searchbar form .searchIcon {
+  width: 40px;
+  height: 40px;
+  background-color: #f8f8fd;
+}
+
+.jobspage .searchdiv .searchbar form .searchtext {
+  height: 40px;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid #bebebe;
+  background-color: #f8f8fd;
+}
+
+.jobspage .searchdiv .searchbar form .searchsubmit {
+  height: 40px;
+  width: 100px;
+  background-color: #4640de;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.jobsdiv {
+  display: flex;
+  width: calc(100% - 250px);
+  margin: auto;
+  padding-top: 50px;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #fff;
+}
+
+.jobsdiv .filters {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+  width: 20%;
+  background-color: #fff;
+}
+
+.jobsdiv .filters .filterlist {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+}
+
+.jobsdiv .filters .filterlist label {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  gap: 48px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.jobsdiv .filters .filterlist ol {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  transition: max-height 0.5s ease-out;
+  max-height: 300px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.jobsdiv .filters .filterlist ol li label {
+  font-size: 16px;
+  font-weight: 100;
+  display: flex;
+  gap: 16px;
+  background-color: #fff;
+  margin-right: 100px;
+}
+
+.jobsdiv .filters .filterlist ol li label input {
+  width: 10px;
+  cursor: pointer;
+  
+}
+
+.jobsdiv .filters .filterlist .hiddenlist {
+  max-height: 0;
+  background-color: #fff;
+}
+
+.jobsdiv .alljobs {
+  width: 75%;
+  height: 1430px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.jobsdiv .alljobs .alljobsdiv {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.jobsdiv .alljobs .jobsheader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: #fff;
+}
+
+.jobsdiv .alljobs .jobsheader .headerLeftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: #fff;
+}
+
+.jobsdiv .alljobs .jobsheader .headerLeftSide h2 {
+  font-size: 32px;
+  background-color: #fff;
+}
+
+.jobsdiv .alljobs .jobsheader .headerLeftSide p {
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.jobsdiv .alljobs .jobsheader .headerRightSide {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #fff;
+}
+
+.jobsdiv .alljobs .jobsheader .headerRightSide label {
+  background-color: #fff;
+  width: 60px;
+}
+
+.jobsdiv .alljobs .jobsheader .headerRightSide .selectdiv {
+  position: relative;
+  background-color: #fff;
+}
+
+.jobsdiv .alljobs .jobsheader .headerRightSide select {
+  border: none;
+  background-color: #fff;
+  position: relative;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.jobsdiv .alljobs .jobsheader .headerRightSide .selectdiv .selectArrow {
+  position: absolute;
+  right: 5px;
+  top: calc(50% - 8px);
+}
+
+.jobsdiv .alljobs .jobsheader .headerRightSide .viewButtons {
+  background-color: #fff;
+  display: flex;
+  gap: 16px;
+}
+
+.jobsdiv .alljobs .jobsheader .headerRightSide .viewButtons button {
+  border: none;
+  background-color: #fff;
+}
+
+.jobsdiv .alljobs .jobsheader .headerRightSide .viewButtons .buttonIcon {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.jobsdiv .alljobs .showjobs {
+  padding-top: 40px;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  background-color: #FFF;
+}
+
+.jobsdiv .alljobs .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  gap: 5px;
+}
+
+.jobsdiv .alljobs .pagination button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #4640de;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+}

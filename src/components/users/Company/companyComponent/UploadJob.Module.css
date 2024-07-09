@@ -1,0 +1,81 @@
+.upJob {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: fit-content;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.upJob form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #FFF;
+}
+
+.upJob form .jobImgContainer {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    border: solid 1px #4640DE;
+    background-color: #FFF;
+}
+
+.upJob form .jobImgContainer img {
+    background-color: #FFF;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    padding: 5px;
+}
+
+.upJob .imageHoverText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.upJob .jobImgContainer:hover .imageHoverText {
+    display: block;
+}
+
+.upJob form div input {
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: #FFF;
+    border-bottom: 1px solid #4640DE;
+}
+
+.upJob form div textarea {
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    border: none;
+    background-color: #FFF;
+    border-bottom: 1px solid #4640DE;
+    padding: 20px;
+}
+
+.upJob button {
+    width: 300px;
+    height: 35px;
+    border: none;
+    background-color: #4640DE;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 5px;
+}

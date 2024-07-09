@@ -1,0 +1,19 @@
+.editJobs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.editJobs header {
+    display: flex;
+    padding: 24px;
+    border-bottom: 1px solid;
+}
+
+.editJobs .jobs {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

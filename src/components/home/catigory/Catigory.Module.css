@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+.arrowimg {
+  width: 20px;
+}
+
+.catigoryicon {
+  width: 48px;
+}
+
+.catigoryContainer {
+  width: calc(100% - 250px);
+  margin: auto;
+}
+
+.catigoryContainer .catigoryLabel {
+  margin-top: 72px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.catigoryContainer .catigoryLabel span {
+  color: #26A3FE;
+}
+
+.catigoryContainer .catigoryLabel .jobsLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: fit-content;
+  color: #4640de;
+  font-size: 18px;
+}
+
+.catigoryContainer .catigories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.catigoryContainer .catigories .catigorycomponent {
+  width: 274px;
+  border: 1px solid #d6ddeb;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px;
+  transition: background-color 1s ease;
+}
+
+.catigoryContainer .catigories .catigorycomponent .catigoryicon {
+  color: #4640de;
+  width: 48px;
+  height: 48px;
+  transition: background-color 1s ease;
+}
+
+.catigoryContainer .catigories .catigorycomponent div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.catigoryContainer .catigories .catigorycomponent div h3 {
+  transition: background-color 1s ease;
+}
+
+.catigoryContainer .catigories .catigorycomponent div .tojobs {
+  color: #4640de;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 1s ease;
+}
+
+.catigoryContainer .catigories .catigorycomponent .tojobs .arrowimg {
+  color: #4640de;
+  transition: background-color 1s ease;
+}
+
+.catigoryContainer .catigories .catigorycomponent:hover,
+.catigoryContainer .catigories .catigorycomponent:hover .catigoryicon,
+.catigoryContainer .catigories .catigorycomponent:hover .tojobs,
+.catigoryContainer .catigories .catigorycomponent:hover .tojobs .arrowimg {
+  background-color: #4640de;
+  color: #fff;
+}

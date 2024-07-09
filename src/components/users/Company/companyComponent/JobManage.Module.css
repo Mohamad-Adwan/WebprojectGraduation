@@ -1,0 +1,151 @@
+.jobManage {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.jobManage header {
+    padding: 24px;
+    border-bottom: 1px solid #7C8493;
+}
+
+.jobManage .editJob {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    border: 2px solid #D6DDEB;
+    padding: 24px;
+    gap: 10px;
+}
+
+.jobManage .editJob form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jobManage .editJob form .line {
+    display: flex;
+    gap: 20px;
+}
+
+.jobManage .editJob form .lastline {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.jobManage .editJob form div input {
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 16px;
+}
+
+.jobManage .editJob form div .jobName {
+    font-size: 20px;
+}
+
+.jobManage .editJob form div textarea {
+    width: 625px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.jobManage .editJob form .editbuttons {
+    display: flex;
+    gap: 10px;
+}
+
+.jobManage .editJob form .updateButton {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 21px;
+    background-color: #4640DE;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.jobManage .editJob form .deleteButton {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 21px;
+    background-color: #de4040;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.jobManage .Applications {
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px 100px;
+    border: 2px solid #D6DDEB;
+    padding: 24px;
+    gap: 24px;
+}
+
+.jobManage .Applications .Applicants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.jobManage .Applications .Applicants .user {
+    display: flex;
+    gap: 20px;
+}
+
+.jobManage .Applications .Applicants .user .buttons {
+    display: flex;
+    gap: 10px;
+    padding: 10px 25px;
+    border: 1px solid #4640DE;
+    border-radius: 10px;
+}
+
+.jobManage .Applications .Applicants .user .buttons .cv {
+    cursor: pointer;
+    padding: 7px 21px;
+    background-color: #FFF;
+    color: #4640DE;
+    border: 1px solid #4640DE;
+    border-radius: 5px;
+    transition: background-color 1s ease, color 0.3s ease;
+}
+
+.jobManage .Applications .Applicants .user .buttons .cv:hover {
+    color: #FFF;
+    background-color: #4640DE;
+}
+
+.jobManage .Applications .Applicants .user .buttons .accept {
+    cursor: pointer;
+    padding: 7px 21px;
+    background-color: #FFF;
+    color: #2fad39;
+    border: 1px solid #2fad39;
+    border-radius: 5px;
+    transition: background-color 1s ease, color 0.3s ease;
+}
+
+.jobManage .Applications .Applicants .user .buttons .accept:hover {
+    color: #FFF;
+    background-color: #2fad39;
+}
+
+.jobManage .Applications .Applicants .user .buttons .reject {
+    cursor: pointer;
+    padding: 7px 21px;
+    background-color: #FFF;
+    color: #de4040;
+    border: 1px solid #de4040;
+    border-radius: 5px;
+    transition: background-color 1s ease, color 0.3s ease;
+}
+
+.jobManage .Applications .Applicants .user .buttons .reject:hover {
+    color: #FFF;
+    background-color: #de4040;
+}
